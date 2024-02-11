@@ -1,0 +1,36 @@
+-keepattributes *Annotation*
+-keepattributes Signature
+
+-keep class com.rykishita.TestAndroidActivity2023.** {
+  public <fields>;
+  public <methods>;
+  protected <fields>;
+  protected <methods>;
+}
+-dontwarn com.rykishita.TestAndroidActivity2023.**
+
+-keep class com.microsoft.** {
+    *;
+}
+-keep class com.bumblelion.** {
+    *;
+}
+
+-keep class com.google.unity.** {
+   *;
+}
+-keep public class com.google.android.play.core.**{
+   public *;
+}
+-keep public class com.google.android.gms.**{
+   public *;
+}
+-keep public class com.google.android.ump.**{
+   public *;
+}
+-keep public class com.google.ads.**{
+   public *;
+}
+-keep public class com.google.games.bridge.**{
+   public *;
+}
